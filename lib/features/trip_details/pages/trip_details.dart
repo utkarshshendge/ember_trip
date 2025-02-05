@@ -46,7 +46,7 @@ class _TripDetailsState extends State<TripDetails> {
       final destination = _controller.destination.value;
 
       PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-        googleApiKey: MAP_API_KEY,
+        googleApiKey: GOOGLE_MAP_API_KEY,
         request: PolylineRequest(
           origin: PointLatLng(origin.latitude, origin.longitude),
           destination: PointLatLng(destination.latitude, destination.longitude),
