@@ -2,8 +2,21 @@
 
 # Trip Information App
 
+<img src="https://github.com/user-attachments/assets/8878a2e5-26d5-44c8-849a-5ce1d2691503" width="300">
+<img src="https://github.com/user-attachments/assets/2a9ce454-0a22-4b34-ac4c-a0a06c6afffa" width="300">
+
 ## Video Demo
 Please have a look at the video demo first: [Google Drive Link here](https://drive.google.com/file/d/1dB48hSgw-FcKqfXx25IbYC3RCKsUL01t/view?usp=sharing)
+
+---
+
+## APK file
+Please install the apk from: [Google Drive Link here](https://drive.google.com/file/d/1-DQ4vQytDtv2-KsV1qeCjZ164sxrsgTl/view?usp=sharing)
+
+---
+
+### Building the app
+Inorder to build the app, you will have to add your   `GOOGLE_MAP_API_KEY` in constants.dart.
 
 ---
 
@@ -18,6 +31,7 @@ Please have a look at the video demo first: [Google Drive Link here](https://dri
 
 3. **Fetch Trip Details**  
    Using the `trip_uid`, I make another API call to:  
+
    `GET https://api.ember.to/v1/trips`.
 
 ---
