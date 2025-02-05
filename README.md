@@ -16,7 +16,7 @@ Please install the apk from: [Google Drive Link here](https://drive.google.com/f
 ---
 
 ### Building the app
-Inorder to build the app, you will have to add your   `GOOGLE_MAP_API_KEY` in constants.dart.
+Inorder to build the app, you will have to add your   `GOOGLE_MAP_API_KEY` in constants.dart and in the android manifest file under the key `com.google.android.geo.API_KEY`
 
 ---
 
